@@ -34,8 +34,6 @@ class SocialiteServicesProvider extends ServiceProvider
     {
         $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
-        $this->loadTranslationsFrom(__DIR__ . '/../lang', 'vk-socialite');
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'socialite');
     }
 }
 // end of class SocialiteServicesProvider
