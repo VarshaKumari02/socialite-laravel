@@ -1,0 +1,28 @@
+{
+    "name": "varsha/socialite-laravel",
+    "description": "This is for login with socialite.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "laravel/socialite": "5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Varsha\\Socialite\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Varsha\\Socialite\\SocialiteServicesProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "varsha",
+            "email": "varshakri7282@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
